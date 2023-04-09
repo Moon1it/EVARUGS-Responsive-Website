@@ -55,6 +55,7 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 189px;
+		height: 60px;
 		position: relative;
 		z-index: 5;
 
@@ -75,7 +76,8 @@
 	&__categores {
 		padding-top: 8px;
 		display: flex;
-		gap: 5px;
+		gap: 10px;
+		height: fit-content;
 		@media (max-width: $md2) {
 			display: none;
 		}
@@ -83,7 +85,7 @@
 	&__logo {
 	}
 	&__link {
-		padding: 0 10px;
+		padding: 0 5px;
 		font-weight: 300;
 		font-size: 18px;
 		text-align: center;

@@ -4,6 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 		<title>Evarugs</title>
 	</head>
 	<body>
@@ -144,44 +150,153 @@
 
 		<div class="reviews">
 			<div class="container">
-				<div class="reviews__body">
-					<div class="reviews__prev"></div>
-					<div class="reviews__next"></div>
-					<div class="reviews__list">
-						<div class="reviews__item reviews-item">
-							<div class="reviews-item__image">
-								<img src="./images/customer-1.png" alt="customer-1" />
+				<div class="reviews__body swiper">
+					<div class="reviews__content">
+						<div class="reviews-wrapper swiper-wrapper">
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-1.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Константин Винокур</h1>
+									<p class="card__description">
+										Коврики отличного качества! Материал очень прочный
+										и легкий в уходе, а подгонка под размеры моей
+										машины была точной. Очень доволен покупкой!
+									</p>
+									<button class="card__button">View More</button>
+								</div>
 							</div>
-							<div class="reviews-item__text">
-								Коврики супер!!! Качество на высшем уровне!!! Удачи и
-								побольше заказов вам!!! Большое спасибо!
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-2.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Ирина Васькова</h1>
+									<p class="card__description">
+										Эти коврики изменили ощущения от автомобиля!
+										Удобные и прочные, защищают салон моей машины от
+										грязи и износа.
+									</p>
+									<button class="card__button">View More</button>
+								</div>
 							</div>
-							<div class="reviews-item__line"></div>
-							<div class="reviews-item__name">Константин В.</div>
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-3.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Николай Петров</h1>
+									<p class="card__description">
+										Я был поражен качеством этих ковриков - они
+										сделаны из высококачественных материалов и
+										выглядят превосходно.
+									</p>
+									<button class="card__button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-4.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Смирнов Петр</h1>
+									<p class="card__description">
+										Эти коврики подошли как влитые под мои ноги.
+										Материал очень мягкий и приятный на ощупь, а также
+										защищает пол моей машины от пыли и грязи.
+										Рекомендую!
+									</p>
+									<button class="card__button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-5.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Морозова София</h1>
+									<p class="card__description">
+										Коврики высокого качества, которые придают моей
+										машине стильный и элегантный вид. Материал
+										долговечный, и легко чистится. Рекомендую покупку!
+									</p>
+									<button class="card__button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-6.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Петров Виктор</h1>
+									<p class="card__description">
+										Я не могу поверить, как удобно стало заходить в
+										мою машину после установки этих ковриков! Они
+										прекрасно подогнаны по размеру, и очень прочные.
+										Спасибо за отличный продукт!
+									</p>
+									<button class="card__button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-7.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Кузнецов Александр</h1>
+									<p class="card__description">
+										Коврики не только прекрасно защищают пол моей
+										машины, но и делают ее интерьер более эстетичным.
+										Материал не скользит, что делает езду безопаснее.
+										Рекомендую!
+									</p>
+									<button class="card__button">View More</button>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="card__photo">
+									<span class="card__overlay"></span>
+									<div class="card__image">
+										<img src="./images/customer-8.jpg" alt="" />
+									</div>
+								</div>
+								<div class="card__content">
+									<h1 class="card__name">Ирина Васькова</h1>
+									<p class="card__description">
+										Приятно удивлен качеством ковриков для моей
+										машины. Они очень удобные и легкие в уходе, а
+										также идеально подогнаны под размеры моего
+										автомобиля. Очень доволен покупкой!
+									</p>
+									<button class="card__button">View More</button>
+								</div>
+							</div>
 						</div>
-						<div class="reviews__item reviews-item reviews-item--active">
-							<div class="reviews-item__image">
-								<img src="./images/customer-2.png" alt="customer-2" />
-							</div>
-							<div class="reviews-item__text">
-								Покупала у ребят коврики для Хундай солярис в подарок
-								молодому человеку. Все очень понравилось. Буду
-								советовать только вас.
-							</div>
-							<div class="reviews-item__line"></div>
-							<div class="reviews-item__name">Вера К.</div>
-						</div>
-						<div class="reviews__item reviews-item">
-							<div class="reviews-item__image">
-								<img src="./images/customer-3.png" alt="customer-3" />
-							</div>
-							<div class="reviews-item__text">
-								Спасибо, все приехало, поставил. Результатом доволен, в
-								машине супер! Заказывал на Ниссан.
-							</div>
-							<div class="reviews-item__line"></div>
-							<div class="reviews-item__name">Николай П.</div>
-						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
 					</div>
 				</div>
 			</div>

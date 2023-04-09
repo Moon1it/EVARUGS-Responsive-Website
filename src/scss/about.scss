@@ -26,13 +26,14 @@
 		@media (max-width: $md2) {
 			flex-direction: column;
 			gap: 60px;
-			padding: 0 60px;
+			padding: 0 50px;
 		}
 		@media (max-width: $md3) {
-			padding: 0 30px;
+			padding: 0 20px;
 		}
 		@media (max-width: $md4) {
 			gap: 30px;
+			// padding: 0;
 		}
 	}
 
