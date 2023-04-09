@@ -10,11 +10,14 @@ $linearGradient: linear-gradient(
 		rgba(212, 20, 90, 0.25) 0.96%,
 		rgba(46, 49, 146, 0.25) 104.83%
 	);
-	padding: 75px 0;
+	padding: 100px 0;
 
 	@media (max-width: $md2) {
 		padding: 100px 0 50px;
 		margin-top: -50px;
+	}
+	@media (max-width: $md2) {
+		margin-top: 0;
 	}
 
 	&__body {
@@ -38,13 +41,12 @@ $linearGradient: linear-gradient(
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px 15px;
+	padding: 15px;
 }
 
 .card {
 	border-radius: 25px;
 	background: #fff;
-	// min-height: 400px;
 
 	&__button {
 		border: none;
@@ -73,8 +75,23 @@ $linearGradient: linear-gradient(
 		text-align: center;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		height: 105px;
+		height: 130px;
 	}
+
+	&__name {
+		font-size: 18px;
+		font-weight: 500;
+		color: #333;
+		margin-bottom: 5px;
+	}
+}
+
+.photo {
+	position: relative;
+	row-gap: 5px;
+	padding: 15px;
+	@extend %content;
+
 	&__image {
 		position: relative;
 		height: 150px;
@@ -85,12 +102,7 @@ $linearGradient: linear-gradient(
 			border: 4px solid #fff;
 		}
 	}
-	&__name {
-		font-size: 18px;
-		font-weight: 500;
-		color: #333;
-		margin-bottom: 5px;
-	}
+
 	&__overlay {
 		position: absolute;
 		height: 100%;
@@ -118,12 +130,6 @@ $linearGradient: linear-gradient(
 			border-radius: 0 25px 0 0;
 			background-color: #fff;
 		}
-	}
-	&__photo {
-		position: relative;
-		row-gap: 5px;
-		padding: 15px;
-		@extend %content;
 	}
 }
 

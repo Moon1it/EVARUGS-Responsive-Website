@@ -10,6 +10,10 @@ a {
 	color: #000;
 }
 
+ul {
+	margin: 0;
+}
+
 img {
 	object-fit: cover;
 	width: 100%;
@@ -50,12 +54,12 @@ $md4: 479.98px;
 	justify-content: center;
 	align-items: center;
 	width: fit-content;
+	height: fit-content;
 
 	background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
 	border-radius: 7px;
 
 	padding: 15px 38px;
-	height: 40px;
 
 	color: #fff;
 	font-weight: 900;
@@ -75,7 +79,7 @@ $md4: 479.98px;
 		padding: 10px 25px;
 	}
 	@media (max-width: $md4) {
-		padding: 8px 15px;
+		padding: 7px 15px;
 	}
 }
 
@@ -96,6 +100,11 @@ $md4: 479.98px;
 		linear-gradient(150.72deg, #d4145a 10.39%, #2e3192 89.67%);
 
 	opacity: 0.7;
+
+	&:hover {
+		background: url(./images/arrow-top.svg) 0 0 / cover no-repeat,
+			linear-gradient(150.72deg, #e30154 15.39%, #050bba 129.67%);
+	}
 
 	@media (max-width: $md3) {
 		right: 30px; /* Place the button 30px from the right */

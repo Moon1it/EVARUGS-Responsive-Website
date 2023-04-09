@@ -39,19 +39,19 @@
 		rgba(46, 49, 146, 0.7) 0%,
 		rgba(212, 20, 90, 0.7) 98.16%
 	);
-	overflow: hidden;
 	&__body {
 		height: 70px;
 		display: grid;
 		grid-template-columns: 4fr 2fr 4fr;
 		@media (max-width: $md2) {
 			grid-template-columns: 4fr 3fr 4fr;
+			height: 80px;
 		}
 
 		@media (max-width: $md4) {
 			grid-template-columns: 1fr;
 			height: 100px;
-			padding: 22px 0;
+			padding: 20px 0;
 		}
 	}
 	&__city {
