@@ -4,7 +4,7 @@ import "./js/script.js";
 
 new Swiper(".reviews__content", {
 	slidesPerView: 4,
-	spaceBetween: 20,
+	spaceBetween: 25,
 	// slidesPerGroup: 3,
 	loop: true,
 	// loopFillGroupWithBlank: true,

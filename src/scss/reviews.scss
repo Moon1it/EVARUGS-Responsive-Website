@@ -16,7 +16,7 @@ $linearGradient: linear-gradient(
 		padding: 100px 0 50px;
 		margin-top: -50px;
 	}
-	@media (max-width: $md2) {
+	@media (max-width: $md4) {
 		margin-top: 0;
 	}
 
@@ -70,12 +70,14 @@ $linearGradient: linear-gradient(
 		@extend %content;
 	}
 	&__description {
-		font-size: 14px;
-		color: #707070;
 		text-align: center;
 		overflow: hidden;
-		text-overflow: ellipsis;
 		height: 130px;
+
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 20px;
+		color: #767676;
 	}
 
 	&__name {
